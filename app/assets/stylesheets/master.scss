@@ -1,17 +1,17 @@
 @import "bootstrap";
 
 .navbar {
-  font_family: 'chunkfiveroman', sans-serif;
+  font-family: 'chunkfiveroman', sans-serif;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
   background: image_url('retina_wood.png');
-  text-color: black;
+  # text-color: black;
 }
 
 .navbar-inverse .navbar-brand {
-  font_family: 'chunkfiveroman', sans-serif;
+  font-family: 'chunkfiveroman', sans-serif;
   color: #E3E85A;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 35px;
 }
 
@@ -26,38 +26,43 @@
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
-  magin: 0;
+  margin: 0;
 }
 
 .frosty {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   background: rgba(0, 0, 0, 0.5);
-  color: white;
+  color: beige;
 }
 
-.frosty h1 {
-  font_family: 'chunkfiveroman', sans-serif;
-  font-weight: 200;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
-}
 
-.frosty h2 {
-  font_family: 'chunkfiveroman', sans-serif;
-  font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
-}
 
 body {
-  background: image_url('retina_wood.png');
-  font_family: 'chunkfiveroman', sans-serif;
+  background: image_url('retina_wood');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-size: 20px;
 }
 
+.firstbck {
+
+}
+.otherbck {
+  background: image_url('water.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+  padding: 10px;
+
+}
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
+  background: #d0dbed;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bdbdbd #e4e4e4;
   padding: 10px;
