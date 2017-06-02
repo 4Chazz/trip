@@ -18,5 +18,8 @@ module Jamaica
     # Precompile additional assets
     config.assets.precompile += %w( .svg .eot .woff .ttf )
 
+    #Add audio
+    config.assets.precompile << "audios/*"
+
   end
 end
