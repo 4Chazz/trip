@@ -21,5 +21,7 @@ module Jamaica
     #Add audio
     config.assets.precompile << "audios/*"
 
+    
+
   end
 end

@@ -61,3 +61,6 @@ end
 
 #private stuff
 gem 'figaro'
+
+#Countdown Timer
+gem 'countdown'
