@@ -8,29 +8,31 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-  <%= audio_tag "music.mp3",id: "sound", class: "audio-to-play", autoplay: true, loop: true, controls: true%>
-  <nav class="navbar navbar-toggleable-md navbar-light bg-primary">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <%= link_to 'Party', root_path, class: 'navbar-brand' %>
+  
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+           <li class="navbar-brand, nav-link">
+            <%= link_to 'Home', root_path %>
+          </li>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-      <li class="nav-item, nav-link">
-        <%= link_to 'Resort', resort_path %>
-      </li>
-      <li class="nav-item, nav-link">
-        <%= link_to 'Price', price_path %>
-      </li>
-      <li class="nav-item, nav-link">
-        <%= link_to 'Contact', contact_path %>
-      </li>
-    </ul>
-  </div>
-</nav>
+          <li class="nav-item, nav-link">
+            <%= link_to 'Resort', resort_path %>
+          </li>
+          <li class="nav-item, nav-link">
+            <%= link_to 'Price', price_path %>
+          </li>
+          <li class="nav-item, nav-link">
+            <%= link_to 'Contact', contact_path %>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
 
     <%= yield %>
-  </body>
+  
 </html>
