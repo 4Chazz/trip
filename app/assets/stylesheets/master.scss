@@ -21,6 +21,8 @@
 
 .navbar-toggler {
     border-color: rgb(255,102,203);
+    background-color: #f26dc5;
+
 }
 
  .navbar-toggler-icon {
@@ -94,12 +96,25 @@ li {
 }
 
 .photo {
-  # display: table-cell;
-  margin: 0 auto;
-  max-height: 400px;
-  max-width: 500px;
-  padding: 10px;
-  min-height: 300px;
+  text-align: center;
+  width: auto ;
+  max-height: 300px;
+  max-width: 75%;
+  margin: 0px 0px 15px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom-padding: 50;
+
+}
+
+.phototop {
+  display: block;
+  text-align: center;
+  width: auto ;
+  max-height: 500px;
+  margin: auto;
+  bottom-padding: 50;
+
 }
 
 .glow {
