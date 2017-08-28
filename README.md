@@ -1,24 +1,10 @@
-# README
+# Jamaica Trip Web Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Trip](https://fabulous40.herokuapp.com): A webpage featuring a destination birthday party.
 
-Things you may want to cover:
+This app powers Trip located [here](https://fabulous40.herokuapp.com)
 
-* Ruby version
 
-* System dependencies
+## Copyright
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+&copy; Copyright 2017 Chastity Lawson. All Rights Reserved.
