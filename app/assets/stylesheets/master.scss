@@ -34,6 +34,7 @@
   font-size: 10px;
   color: magenta;
 }
+
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -119,8 +120,8 @@ li {
 
 .glow {
   color: magenta;
-  text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+  text-shadow:
+    1px 0px 1px #ccc, 0px 1px 1px #eee,
     2px 1px 1px #ccc, 1px 2px 1px #eee,
     3px 2px 1px #ccc, 2px 3px 1px #eee,
     4px 3px 1px #ccc, 3px 4px 1px #eee,
@@ -129,12 +130,12 @@ li {
     7px 6px 1px #ccc;
 }
 
- 
+
 div.audio-player, .audio-player button {
   float: right;
   # width: 50%;
   height: 20px;
-  
+
 }
 
 .footer-blurb {
