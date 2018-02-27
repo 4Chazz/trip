@@ -84,6 +84,50 @@ li {
   line-height: 1.7;
 }
 
+/*COUNTDOWN*/
+body{
+  text-align: center;
+  background: clear;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.h1_timer{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #00BF96;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816A;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+/*End of COUNTDOWN*/
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
