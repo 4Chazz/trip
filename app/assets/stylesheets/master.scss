@@ -34,6 +34,7 @@
   font-size: 10px;
   color: magenta;
 }
+
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -83,6 +84,53 @@ li {
   line-height: 1.7;
 }
 
+/*COUNTDOWN*/
+body{
+  text-align: center;
+  background: clear;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.h1_timer{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+  font-family:'quicksand', sans-serif;
+  color: #1ebeff;
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  font-size: 48px;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding-top: 10px;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  background: rgba(252, 249, 232, 0.8);
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 50;
+  color: #fcf9e8;
+}
+
+/*End of COUNTDOWN*/
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -119,8 +167,8 @@ li {
 
 .glow {
   color: magenta;
-  text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+  text-shadow:
+    1px 0px 1px #ccc, 0px 1px 1px #eee,
     2px 1px 1px #ccc, 1px 2px 1px #eee,
     3px 2px 1px #ccc, 2px 3px 1px #eee,
     4px 3px 1px #ccc, 3px 4px 1px #eee,
@@ -129,18 +177,19 @@ li {
     7px 6px 1px #ccc;
 }
 
- 
+
 div.audio-player, .audio-player button {
   float: right;
   # width: 50%;
   height: 20px;
-  
+
 }
 
 .footer-blurb {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-style: italic;
   text-align: right;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
 
 }
