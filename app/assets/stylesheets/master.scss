@@ -100,31 +100,31 @@ body{
 }
 
 #clockdiv{
-  font-family: sans-serif;
-  color: #fff;
+  font-family:'quicksand', sans-serif;
+  color: #17dbed;
   display: inline-block;
-  font-weight: 100;
+  font-weight: 900;
   text-align: center;
   font-size: 30px;
 }
 
 #clockdiv > div{
   padding: 10px;
-  border-radius: 3px;
-  background: #00BF96;
+  border-radius: 7px;
+  /*background: #00BF96;*/
   display: inline-block;
 }
 
 #clockdiv div > span{
   padding: 15px;
   border-radius: 3px;
-  background: #00816A;
+  background: #fcf9e8;
   display: inline-block;
 }
 
 .smalltext{
   padding-top: 5px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /*End of COUNTDOWN*/
